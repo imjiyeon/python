@@ -2,7 +2,6 @@
 a = 10  #양수
 a = -10 #음수
 a = 0
-print(a)
 
 # 데이터 타입 확인 type 
 print(type(a))
@@ -19,5 +18,5 @@ print(7 // 3)   #몫
 print(7 % 3)    #나머지
 
 # 형변환
-int("1") # "1" -> 1
-float("1.23") # "1.23" -> 1.23
+print(int(1.5)) #float->int
+print(int(0.5))
