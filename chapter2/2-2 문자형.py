@@ -74,17 +74,21 @@ f'나의 나이는 {age}입니다'
 a = '안녕하세요'
 len(a)
 
-# 위치 찾기 find
+# 특정 문자의 위치 찾기 find(찾을문자) → 문자의 위치
+# 입력값: 찾을 문자
+# 나오는값: 문자의 위치 index
 a = "python"
 a.find('y') #1
 a.find('a') #값이 없으면 -1 반환
 
-# 위치 찾기 index
+# 특정 문자의 위치 찾기 index
 a = "hobby"
 a.index('y') #1
 # a.index('a') #값이 없으면 에러남
 
-# 문자열 교체 replace(교체대상, 새로운문자)
+# 문자열 교체 replace(교체대상, 새로운문자) → 새로운문자열
+# 입력값: 교체대상, 새로운문자
+# 나오는 값: 새로운문자열
 a = "i like coffee"
 a.replace("coffee", "tea") #i like tea
 
