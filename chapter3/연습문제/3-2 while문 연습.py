@@ -75,3 +75,17 @@ while i < 5:
     i += 1
 
 print("모든 요소의 합:", hap)
+
+# 11. 아래와 같이 리스트를 만들고
+# 숫자(int, float) 타입인 값만 더한 결과를 구하세요 
+# 결과: 45.5
+lis = [10, "a", 30, "hello", 5.5, True]
+i = 0
+hap = 0
+
+while i < 6:
+    if(type(lis[i])==int or type(lis[i])==float):
+        hap = hap + lis[i]
+    i += 1
+
+print(hap)
