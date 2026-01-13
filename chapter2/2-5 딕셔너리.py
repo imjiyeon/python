@@ -1,14 +1,14 @@
 # 학생 정보를 담은 딕셔너리 생성
-d = {'name': '둘리', 'phone': '010-1234-5678', 'birth': '0222'}
+d = {'name': '둘리', 'phone': '010-1234-5678', 'address': '서울'}
 
 # 값 꺼내기
-print(d['name'])   #딕셔너리[key]
+print(d['name'])    #딕셔너리[key]
 
 # 새로운 요소 추가
 d['age'] = 20       #딕셔너리[key] = value
 
 # 요소 수정
-d['address'] = '인천'
+d['address'] = '인천'     
 
 # 요소 삭제
 del d['name']       #딕셔너리[key]
