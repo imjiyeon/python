@@ -2,7 +2,7 @@
 d = {'name': '둘리', 'phone': '010-1234-5678', 'birth': '0222'}
 
 # 값 꺼내기
-print(d['age'])   #딕셔너리[key]
+print(d['name'])   #딕셔너리[key]
 
 # 새로운 요소 추가
 d['age'] = 20       #딕셔너리[key] = value
