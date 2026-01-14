@@ -105,8 +105,6 @@ b.split(':')    #['a', 'b', 'c', 'd']
 
 #############################
 
-# 조건문 배운 후!
-
 # 문자열이 특정문자로 시작하는지 확인 startswith
 a = "i like coffee"
 a.startswith("i") #True
@@ -117,6 +115,8 @@ a = "i like coffee"
 a.endswith("coffee")    #True
 a.endswith("tea")       #False
 
+#############################
+
 # 소문자를 대문자로 바꾸기 upper
 a = "hi"
 a.upper() #'HI'
@@ -125,14 +125,10 @@ a.upper() #'HI'
 a = "HI"
 a.lower() #'hi'
 
-# 공백 지우는 함수들
+# 공백 지우기
 a = " hi "
-a.lstrip() #왼쪽 공백 제거 'hi '
-a.rstrip() #오른쪽 공백 제거 ' hi'
 a.strip()  #양쪽 공백 제거 'hi'
 print('\''+a.strip()+'\'')
-
-# 반복문 배운 후!
 
 # 문자 개수 세기 count
 a = "hobby"

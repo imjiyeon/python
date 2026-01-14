@@ -24,8 +24,6 @@ print(d)
 
 #############################
 
-# 반복문 배운 후!
-
 # 딕셔너리 관련 함수
 
 d = {'name': '둘리', 'phone': '010-1234-5678', 'birth': '0222'}
@@ -33,10 +31,6 @@ d = {'name': '둘리', 'phone': '010-1234-5678', 'birth': '0222'}
 # 모든 키 조회
 keys = d.keys()
 print(keys, type(keys)) # dict_keys 객체는 리스트와 비슷하게 생겼지만 리스트는 아님
-
-# 필요하면 리스트로 변환해서 사용
-lis = list(keys)
-print(lis, type(lis))
 
 # 모든 값 조회
 values = d.values()
