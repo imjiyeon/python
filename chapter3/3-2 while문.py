@@ -32,7 +32,7 @@ print(10)
 i = 1
 while i <= 10:
     print(i)
-    i += 1 # i=i+1
+    i = i + 1
 
 # 숫자 1부터 10까지 합 구하기
 sum = 0
@@ -49,39 +49,38 @@ sum = sum + 10
 print("1부터 10까지의 합:", sum)
 
 # while문으로 합 구하기
-num = 1   # 더할 숫자
-sum = 0   # 합계를 저장할 변수
+n = 1   # 더할 숫자
+hap = 0   # 합계를 저장할 변수
 
-while num <= 10:
-    sum = sum + num
-    num += 1
+while n <= 10:
+    hap = hap + n
+    n = n + 1
 
-print("1부터 10까지의 합:", sum)
+print("1부터 10까지의 합:", hap)
 
 # 1부터 20까지 숫자를 더한다
 # 합이 100을 넘으면 while문을 종료한다
-num = 1
+n = 1
 hap = 0
 
-while num <= 20:   # 1~20까지 반복
-    hap += num
+while n <= 20:   # 1~20까지 반복
+    hap = hap + n
     if hap > 100:   # 합이 100을 넘으면 종료
         break
-    num += 1
+    n = n + 1
 
-print("마지막 더한 숫자:", num)
+print("마지막 더한 숫자:", n)
 print("합계:", hap)
 
 # 1부터 10까지의 숫자 중 홀수만 더한다
-num = 1
+n = 1
 hap = 0
 
-while num <= 10:
-    if num % 2 == 0:   # 짝수일 때는 건너뛴다
-        num += 1
+while n <= 10:
+    if n % 2 == 0:   # 짝수일 때는 건너뛴다
+        n = n + 1
         continue # 아래 코드를 실행하지 않고 조건 검사로 이동한다
-    hap += num
-    num += 1
+    hap = hap + n
+    n = n + 1
 
 print("1부터 10까지의 홀수 합:", hap)
-
